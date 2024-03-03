@@ -1,41 +1,41 @@
-# 基于SpringBoot的宠物服务系统+uniapp小程序+论文参考示例
+**[只要源码，点我获取](https://x-x.fun/e/ICb4ff1d88FTe)💕🤞**
 
-#### 介绍
+**[源码+论文参考示例，点我获取](https://x-x.fun/e/MC800df241Rge)💕🤞**
+
+**郑重声明：项目经过本地测试，确保可以运行。项目仅供学习和毕业设计参考~**
+
+#### 1.项目介绍
+
 技术栈+工具：SpringBoot + uniapp + MySQL5.7 + JDK1.8 + Maven + IDEA2022
 
 管理端：宠物百科管理、服务管理、医院管理、商品管理、订单管理、轮播图管理等
 
 小程序端： 首页（商品类型、特色服务、推荐医院、宠物百科）、宠物用品（全部商品、筛选商品）、宠物服务、个人中心
 
-#### 软件架构
-软件架构说明
+**划重点：内附论文参考示例**
 
+#### 2.项目部署
 
-#### 安装教程
+##### 2.1 后端部署
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 创建数据库，导入项目中的sql文件
 
-#### 使用说明
+- 将压缩包内的pic文件夹下的文件，复制到D:\dev\petServer目录下，没有目录请自行创建。如果想修改目录，可以到src/main/resources/application.yml修改第83行
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 如果上一步没有正确配置，会导致图片不显示
 
-#### 参与贡献
+- 打开IDEA，open->pom.xml 导入项目petadmin （打开两个项目）
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- 进入 src/main/resources/application.yml 17-19行，根据本地数据库的环境修改数据库连接
 
+- 启动项目，http://localhost:8081  管理员账号/密码： 18888888888/123456
 
-#### 特技
+##### 2.2 移动端部署
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 打开Hbuildx工具，导入本地项目petServe
+
+- 运行->通过浏览器打开即可。测试账号/密码： 13888888888/123456
+
+- 如果想要小程序，运行小程序即可
+
+- 关于移动端注册，默认的验证码是： 123456
