@@ -1,4 +1,4 @@
-![gh_17810254f3db_258](https://github.com/user-attachments/assets/67eb31ed-331d-4714-a5fd-00f3d0640589)
+**扫码 >> 源码商城 获取** ![qrcode_for_gh_1266b4b5294a_258 (2)](https://github.com/user-attachments/assets/45838afd-19a8-4cdc-bdd5-74b9c76fb241)
 
 **郑重声明：项目经过本地测试，确保可以运行。项目仅供学习和毕业设计参考~**
 
@@ -37,3 +37,4 @@
 - 如果想要小程序，运行小程序即可
 
 - 关于移动端注册，默认的验证码是： 123456
+![1](https://github.com/user-attachments/assets/96349792-c8c3-42eb-ba92-519452eea413)
